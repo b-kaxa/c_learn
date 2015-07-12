@@ -11,7 +11,7 @@ int testBit(unsigned int x, unsigned short m);
 
 int main(void){
   unsigned int x = 0x12345678;
-  unsigned short m = 28;
+  unsigned short m = 3;
   int res;
 
   res = testBit(x, m);
